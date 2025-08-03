@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    background: #d2f7b3;
+    color: #010e1a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    height: 89px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background: #219ecb;
+    color: #000e1a;
+    padding-inline: 20px;
+    flex-wrap: wrap;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+
+        li {
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                color: #000e1a;
+            }
+        }
+    }
+
+
+}
+
+
+
+main {
+    text-align: center;
+    padding-inline: 50px;
+}
+
+.heading h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    line-height: 2em;
+}
+
+
+.details {
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: left;
+    padding: 20px;
+
+    h2 {
+        text-decoration: underline;
+        text-decoration-style: double;
+         word-spacing: 1.2em;
+         margin-bottom: 10px;
+    }
+
+    
+
+    .inner-detail {
+        display: flex;
+        height: 400px;
+        justify-content: space-between;
+
+        p {
+            width: 50%;
+            text-align: left;
+            word-spacing: normal;
+            padding: 30px;
+            /* background:red */
+        }
+
+        #image-1 {
+
+            width: 40%;
+            background-image: url("https://images.unsplash.com/photo-1699796796159-a97661cc3f86?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        img {
+            /* height: 300px; */
+            /* width: fit-content; */
+            padding: 20px;
+        }
+    }
+}
+
+.right{
+    text-align: right;
+    float: right;
+    /* background: red; */
+}
+
+.left{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h6{
+    font-size: 40px;
+}
